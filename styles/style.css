@@ -43,4 +43,34 @@
     background-color: #469165;
     padding: 16px 12px;
     font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-section{
+    background-image: url("../assets/hero-bg.png");
+    vertical-align: middle;
+}
+
+.hero-contant {
+    flex-direction: column;
+    align-items: center;
+    margin: 115.5px auto 179.5px;
+    border: 2px solid red;
+    gap: 16px;
+}
+
+.play-btn {
+    flex-direction: row;
+}
+
+.hero-contant h1 {
+    font-weight: 900;
+    font-size: 72;
+    color: #30B868;
+}
+
+.hero-contant .btn-1 {
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+    color: #469165;
 }
