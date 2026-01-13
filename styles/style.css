@@ -7,7 +7,12 @@
 }
 
 header {
-    padding: 16px 0px;
+    padding-top: 16px
+}
+
+.hero-section {
+    background: url("../assets/hero-bg.png");
+    padding-top: 16px;
 }
 
 .inter-font {
@@ -54,32 +59,52 @@ header {
     cursor: pointer;
 }
 
-/* header{
-    background-image: url("../assets/hero-bg.png");
+.hero-section .hero-contant {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 115px 120px 179px;
 }
 
-.hero-contant {
-    flex-direction: column;
-    align-items: center;
-    margin: 115.5px auto 179.5px;
-    border: 2px solid red;
-    gap: 16px;
+.btn-1 {
+    background-color: #FFFFFF;
+    color: #469165;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    margin-bottom: 16px;
 }
-
-.play-btn {
-    flex-direction: row;
-}
-
-
 
 .hero-contant h1 {
-    font-weight: 900;
-    font-size: 72;
+    font-size: 72px;
+    font-weight: 800;
+    color: #FFFFFF;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+
+.hero-contant p {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.text-color {
     color: #30B868;
 }
 
-.hero-contant .btn-1 {
-    border-radius: 1000px;
-    background-color: #FFFFFF;
-    color: #469165;
-} */
+.hero-btn {
+     justify-content: center;
+     gap: 16px;
+}
+
+.btn-3 {
+    background-color: none;
+}
+
+.btn-3 {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
