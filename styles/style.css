@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+header {
+    padding: 16px 0px;
+}
 
 .inter-font {
     font-family: "Inter", sans-serif;
@@ -17,22 +20,27 @@
 }
 
 .navbar {
-    width: 100%;
+    width: 85%;
+    max-width: 1360px;
     justify-content: space-around;
     align-items: center;
-    margin: 16px auto;
+    margin: 0px auto;
 }
 
 .nav-itams {
     list-style-type: none;
-    margin: 0px 32px;
 }
 
 .nav-link {
     text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
     color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-links {
+    align-items: center;
+    gap: 32px;
 }
 
 .btn {
@@ -46,9 +54,8 @@
     cursor: pointer;
 }
 
-.hero-section{
+/* header{
     background-image: url("../assets/hero-bg.png");
-    vertical-align: middle;
 }
 
 .hero-contant {
@@ -63,6 +70,8 @@
     flex-direction: row;
 }
 
+
+
 .hero-contant h1 {
     font-weight: 900;
     font-size: 72;
@@ -73,4 +82,4 @@
     border-radius: 1000px;
     background-color: #FFFFFF;
     color: #469165;
-}
+} */
